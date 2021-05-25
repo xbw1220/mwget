@@ -7,7 +7,7 @@ MWget is a "MultiLine" wget for all POSTX System!
 make
 make install
 
-configure通过，但make的时候报错（如ftpplugin.cpp)，在./src文件夹中，可以向所有报错的cpp文件前面添加三行信息：
+Ubuntu环境下编译安装，configure通过，但make的时候报错（如ftpplugin.cpp)，在./src文件夹中，可以向所有报错的cpp文件前面添加三行信息：
 #include <string.h>
 #include <string>
 using std::string;
